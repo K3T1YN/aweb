@@ -29,6 +29,7 @@ header{
   height: 65px;
   width: 1500px;
   margin: 0 auto;
+  margin-top: 10px;
   background-color: #B31810;
 }
 
@@ -170,8 +171,8 @@ footer {
   justify-content: center;
   align-items: center;
   height: 69px;
+  width: 1500px;
   margin-left: -150px;
-  width: 1550px;
   gap: 80px;
   background-color: #B31810;
 }
