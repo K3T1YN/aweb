@@ -146,7 +146,7 @@ div.sobre .flex{
 
 .card:hover {
   transform: scale(1.05);
-  color: red;
+  color: #B31810;
 }
 
 
@@ -187,3 +187,27 @@ footer a:hover {
   transition: .3s;
 }
 
+
+@media screen and (max-width: 768px) {
+  header {
+    margin: 0;
+    width: 100vw;
+    height: max-content;
+    display: block;
+    align-items: center;
+    
+    
+    
+
+
+  }
+  footer {
+    margin: 0;
+    width: 100vw;
+    height: max-content;
+    display: inline-block;
+    text-decoration-line: none;
+    text-align: center;
+    
+  }
+}
