@@ -116,6 +116,38 @@ div.sobre .flex{
   margin: 15px;
 }
 
+.card {
+  width: 200px;
+  height: 310px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+
+
+}
+
+
+.card img {
+  width: 150px;
+  height: 200px;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+
+.card h2 {
+  margin: 10px 0;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  color: red;
+}
+
 
 table {
   border-collapse: collapse;
